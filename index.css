@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.parent {
+    position: relative;
+    background-color: #ddd;
+    width: 400px;
+    height: 200px;
+    border:2px solid ;
+    margin: auto;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.h1 {
+    color:black;
+    background-color: #ddd;
+    margin: 0 auto;
+
+}
+
+.btn {
+    color:white;
+}
+
+input {
+    
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+.result {
+    margin: 0 auto;
+    color: #ddd;
+    border-radius:5px;
+}
+
+div {
+    background-color: #ddd;
+    margin: 0 auto;
+    width:90%;
+    border:2px solid;
+}
+
+/*
+.loan::before {
+    content: "$";
+}*/
